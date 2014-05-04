@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: Vlatko Kosturjak
+  description: Installs chef on ubuntu
+  company: kost
+  license: BSD
+  min_ansible_version: 1.5
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+  - system
+  - packaging
+dependencies: []

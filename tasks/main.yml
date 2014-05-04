@@ -1,0 +1,8 @@
+---
+- name: install chef
+  sudo: yes
+  action: apt pkg="{{item}}" state=present update_cache=yes
+  with_items:
+      - "{{chef_package_name}}"
+  tags: chef
+
